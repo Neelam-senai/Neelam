@@ -27,20 +27,26 @@
 .banner {
     height: 700px;
 
-    background-image: linear-gradient(103deg, rgba(49, 31, 79, 0.96) 0%, rgba(49, 23, 94, 0.52) 100%), url(img/imgdacapa.jpg)
+    background-image: linear-gradient(103deg, rgba(46, 1, 71, 0.600) 0%, rgba(49, 23, 94, 0.52) 100%), url(img/imgdacapa.jpg);
+    background-size: cover;
+    background-position: right center;
 }
     
 
 header {
     height: 165px;
+    }
 
-    nav {
-        background-color: rgba(255, 175, 180, 60%);
-    
+    .menu {
+        width: 100%;
+        background-color: var(--roxoclaro);
+        border-radius:55px;
+        height: 80px;
+        display: flex;
         z-index: 10;
     }
     
-    nav ul img {
+    .menu img {
         width: 200px;
         height: 100px;
     
@@ -50,31 +56,62 @@ header {
     
     }
     
-    nav ul {
+    .menu a {
         list-style-type: none;
+        align-items: center;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     
         font-family: "Outfit";
         font-size: 24px;
-    
+        width: 100%;
+        padding-left: 0px;
     }
     
-    nav ul a {
-        color: black;
+    .menu a {
+        color: rgb(255, 255, 255);
         text-decoration: none;
         /* Remove o sublinhado */
     }
     
-    nav ul a:hover {
-        color: #9C528B;
+    .menu a:hover {
+        color: var(--roxoescuro);
         /* Cor do link ao passar o mouse */
         text-decoration: underline;
         /* Sublinhado ao passar o mouse */
     }
     
-    nav ul li {
-        margin: 0 100px;
-        padding-top: 40px;
-    }
+
+.conteudo-banner {
+    height: calc(85vh - 280px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo-banner p {
+    color: white;
+
+    font-family: "Melodrama";
+    font-size: 32px;
+    text-align: center;
+}
+
+.conteudo-banner span {
+    color: var(--rosaclaro);
+}
+
+.link-cadastro {
+    padding: 1%;
+    border-radius: 37px;
+    background-color: #9583b190;
+    
+    color: #ffffff;
+    border: transparent;
+
+    font-family: "Outfit";
+    font-size: 18px;
+
 }
