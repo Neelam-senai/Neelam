@@ -124,3 +124,69 @@ header {
 
 }
 
+#serviços{
+    text-align: center;
+}
+
+.container-cartao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cartao {
+    width: 360px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao-yoga{
+    background-image: linear-gradient(0deg, rgba(199,96,102,0.8044467787114846) 0%, rgba(0,0,0,0) 70%), url(img/carddoyoga.jpg);
+    background-size: cover;
+}
+
+
+
+.cartao h1 {
+    
+
+    font-family: "Outfit";
+    font-size: 16px;
+
+    text-align: center;
+
+    padding: 7%;
+}
+
+.container-cartao a {
+    padding: 1%;
+    border-radius: 37px;
+    background-color: #9583b190;
+    
+    color: #ffffff;
+    border: transparent;
+
+    font-family: "Outfit";
+    font-size: 18px;
+
+}
+
+#sobre{
+    background-image: url(img/fundosobre.svg);
+    background: rgb(246, 242, 252);
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.about h2{
+    font-family: "Melodrama";
+}
+
+.about p{
+    font-family: "Outfit";
+}
