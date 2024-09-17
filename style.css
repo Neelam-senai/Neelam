@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@font-face {
+    font-family: "Melodrama";
+    src: url(fonts/Melodrama-Variable.ttf);
+}
+
+:root {
+    --roxoescuro: #2F0147;
+    --roxoclaro: #9583B1;
+    --rosaescuro: #9C528B;
+    --rosaclaro: #FFAFB4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+
+    /* margin: 20px - Espaçamento externo de 20px */
+    /* margin: 20px 10px - Espaçamento 20px na vertical, 10px na horizontal */
+    /* margin: 20px 10px 5px - Espaçamento 20px para cima, 10px na horizontal, 5px para baixo */
+    /* margin: 20px 10px 5px 2px - Espaçamento 20px para cima, 10px para a direita, 5px para baixo, 2px para a esquerda */
+
+    margin: 0 auto;
+}
+
+.banner {
+    height: 700px;
+
+    background-image: linear-gradient(103deg, rgba(46, 1, 71, 0.600) 0%, rgba(49, 23, 94, 0.52) 100%), url(img/imgdacapa.jpg);
+    background-size: cover;
+    background-position: right center;
+}
+    
+
+header {
+    height: 165px;
+    padding-top: 20px;
+    }
+
+    .menu {
+        width: 100%;
+        background-color: #9583b188;
+        border-radius:55px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        z-index: 10;
+    }
+    
+    .menu img {
+        width: 200px;
+        height: 100px;
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .menu a {
+        list-style-type: none;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    
+        font-family: "Outfit";
+        font-size: 24px;
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+    .menu a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        /* Remove o sublinhado */
+    }
+    
+    .menu a:hover {
+        color: var(--roxoescuro);
+        /* Cor do link ao passar o mouse */
+        text-decoration: underline;
+        /* Sublinhado ao passar o mouse */
+    }
+    
+
+.conteudo-banner {
+    height: calc(85vh - 280px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo-banner p {
+    color: white;
+
+    font-family: "Melodrama";
+    font-size: 32px;
+    text-align: center;
+}
+
+.conteudo-banner span {
+    color: var(--rosaclaro);
+}
+
+.link-cadastro {
+    padding: 1%;
+    border-radius: 37px;
+    background-color: #9583b190;
+    
+    color: #ffffff;
+    border: transparent;
+
+    font-family: "Outfit";
+    font-size: 18px;
+
+}
+
+#serviços{
+    text-align: center;
+}
+
+.container-cartao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cartao {
+    width: 360px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao-yoga{
+    background-image: linear-gradient(0deg, rgba(199,96,102,0.8044467787114846) 0%, rgba(0,0,0,0) 70%), url(img/carddoyoga.jpg);
+    background-size: cover;
+}
+
+
+
+.cartao h1 {
+    
+
+    font-family: "Outfit";
+    font-size: 16px;
+
+    text-align: center;
+
+    padding: 7%;
+}
+
+.container-cartao a {
+    padding: 1%;
+    border-radius: 37px;
+    background-color: #9583b190;
+    
+    color: #ffffff;
+    border: transparent;
+
+    font-family: "Outfit";
+    font-size: 18px;
+
+}
+
+#sobre{
+    background-image: url(img/fundosobre.svg);
+    background: rgb(246, 242, 252);
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.about h2{
+    font-family: "Melodrama";
+}
+
+.about p{
+    font-family: "Outfit";
+}
