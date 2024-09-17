@@ -12,6 +12,12 @@
     --rosaclaro: #FFAFB4;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container-grid {
     width: 80vw;
     max-width: 1400px;
@@ -39,10 +45,11 @@ header {
 
     .menu {
         width: 100%;
-        background-color: var(--roxoclaro);
+        background-color: #9583b188;
         border-radius:55px;
         height: 80px;
         display: flex;
+        align-items: center;
         z-index: 10;
     }
     
