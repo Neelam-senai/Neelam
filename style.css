@@ -31,7 +31,7 @@
 }
 
 .banner {
-    height: 700px;
+    height: 735px;
 
     background-image: linear-gradient(103deg, rgba(46, 1, 71, 0.600) 0%, rgba(49, 23, 94, 0.52) 100%), url(img/imgdacapa.jpg);
     background-size: cover;
@@ -61,7 +61,15 @@ header {
         display: flex;
         align-items: center;
         text-align: center;
-    
+
+        z-index: 1;
+
+        transition: 200ms;
+    }
+
+    .menu img:hover{
+        transform: scale(1.08);
+        transition: 200ms
     }
     
     .menu a {
@@ -112,16 +120,17 @@ header {
 }
 
 .link-cadastro {
-    padding: 1%;
+    padding: 2%;
     border-radius: 37px;
     background-color: #9583b190;
     
     color: #ffffff;
+    text-decoration: none;
     border: transparent;
 
     font-family: "Outfit";
     font-size: 18px;
-
+    
 }
 
 #serviços{
@@ -135,46 +144,83 @@ header {
 }
 
 .cartao {
-    width: 360px;
+    width: 641px;
+    height: 750px;
 
     display: flex;
     flex-direction: column;
+
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-bottom: 50px;
 }
 
 .cartao-yoga{
-    background-image: linear-gradient(0deg, rgba(199,96,102,0.8044467787114846) 0%, rgba(0,0,0,0) 70%), url(img/carddoyoga.jpg);
+    background-image: linear-gradient(0deg, rgba(199,96,102,0.75) 0%, rgba(0,0,0,0) 60%), url(img/carddoyoga.jpg);
     background-size: cover;
 }
 
+.cartao-mob{
+    background-image: linear-gradient(0deg, rgba(43,1,67,0.75) 0%, rgba(0,0,0,0) 70%), url(img/muiemobilidade.jpg);
+    background-size: cover;
+}
 
+.cartao-comida{
+    background-image: linear-gradient(0deg, rgba(138,40,116,0.75) 0%, rgba(0,0,0,0) 60%), url(img/receita.jpg);
+    background-size: cover;
+}
 
 .cartao h1 {
-    
-
     font-family: "Outfit";
-    font-size: 16px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 270;
 
     text-align: center;
 
     padding: 7%;
 }
 
-.container-cartao a {
-    padding: 1%;
+.cartao a {
+    width: 208px;
+    padding: 2%;
     border-radius: 37px;
-    background-color: #9583b190;
     
     color: #ffffff;
     border: transparent;
 
     font-family: "Outfit";
     font-size: 18px;
+    text-decoration: none;
 
+    z-index: 1;
+
+    transition: 200ms;
 }
 
-#sobre{
+.cartao a:hover{
+    transform: scale(1.05);
+    transition: 200ms
+}
+
+.cartao-yoga a{
+    background-color: #c760659e;
+}
+
+.cartao-mob a{
+    background-color: #2b01439e;
+}
+
+.cartao-comida a{
+    background-color: #8A28749e;
+}
+
+
+
+.fundoflor{
     background-image: url(img/fundosobre.svg);
-    background: rgb(246, 242, 252);
+    background-color: rgb(246, 242, 252);
 }
 
 .about {
@@ -185,8 +231,35 @@ header {
 
 .about h2{
     font-family: "Melodrama";
+    color: #2F0147;
 }
 
 .about p{
     font-family: "Outfit";
+}
+
+.container-dados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+
+    text-align: center;
+
+    background-color: #9583b194;
+    background-size: cover;
+    background-position: right center;
+
+    width: 98vw;
+    position: absolute;
+    left: 0;
+}
+
+.container-dados h3{
+    font-family: "Melodrama";
+    font-size: 36px;
+}
+
+.container-dados p{
+    font-family: "Outfit";
+    font-size: 26px;
 }
