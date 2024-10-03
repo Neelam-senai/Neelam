@@ -111,7 +111,7 @@ header {
     color: white;
 
     font-family: "Melodrama";
-    font-size: 32px;
+    font-size: 36px;
     text-align: center;
 }
 
@@ -120,7 +120,7 @@ header {
 }
 
 .link-cadastro {
-    padding: 2%;
+    padding: 1%;
     border-radius: 37px;
     background-color: #9583b190;
     
@@ -131,6 +131,7 @@ header {
     font-family: "Outfit";
     font-size: 18px;
     
+
 }
 
 #serviços{
@@ -217,11 +218,11 @@ header {
 }
 
 
-
 .fundoflor{
     background-image: url(img/fundosobre.svg);
     background-color: rgb(246, 242, 252);
 }
+
 
 .about {
     display: flex;
@@ -232,10 +233,13 @@ header {
 .about h2{
     font-family: "Melodrama";
     color: #2F0147;
+    font-size: 26px;
+    
 }
 
 .about p{
     font-family: "Outfit";
+    font-size: 22px;
 }
 
 .container-dados{
@@ -262,4 +266,35 @@ header {
 .container-dados p{
     font-family: "Outfit";
     font-size: 26px;
+}
+
+#footer {
+    position: relative;
+}
+
+.texto {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.texto h4 {
+    font-family: "Outfit";
+    text-align: center;
+    margin: 0;
+}
+
+.texto a {
+    font-family: "Outfit";
+    text-align: center;
+    margin: 0;
 }
