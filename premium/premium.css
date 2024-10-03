@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "Outfit";
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+}
+
+@font-face {
+    font-family: "Melodrama";
+    src: url(../font/Melodrama-Variable.ttf);
+}
+
+div.premiumbasico {
+
+    margin-top: 200px;
+   position: absolute;
+   left: 200px;
+
+  img{
+ 
+    position: absolute;
+    top: -100px;
+    left: 88px;
+ }
+
+
+  h1{
+
+    font-family: "outfit";
+    font-size: 20px;
+    margin-bottom:  50px;
+  }
+
+  h2{
+
+    font-family: "outfit";
+    font-size: 20px;
+    margin-bottom:  50px;
+  }
+
+  h3{
+
+    font-family: "outfit";
+    font-size: 20px;
+    margin-bottom:  50px;
+  }
+
+  
+  h4{
+    
+    font-family: "outfit";
+    font-size: 25px;
+    
+  }
+
+  h5{
+    
+    font-family: "outfit";
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: -40px;
+ margin-bottom:  20px;
+  }
+
+
+  .button {
+
+    position: absolute;
+    left: 88px ;
+    font-family: "Outfit";
+    padding: 10px 20px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #2F0147;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #9583B1;
+  }
+  
+  .button:hover {background-color: #2F0147}
+  
+  .button:active {
+    background-color: #2F0147;
+    box-shadow: 0 5px #9583B1;
+    transform: translateY(4px);
+  }
+    
+}
+
+div.premiumcaro {
+
+    margin-top: 200px;
+    position: absolute;
+    right: 210px;
+
+    img{
+
+        position: absolute;
+        top: -100px;
+        right: 140px;
+
+        
+    }
+
+    h1{
+
+        font-family: "outfit";
+        font-size: 20px;
+      
+        margin-bottom: 50px;
+      }
+    
+      h2{
+    
+        font-family: "outfit";
+        font-size: 20px;
+       margin-bottom: 50px;
+      }
+    
+      h3{
+    
+        font-family: "outfit";
+        font-size: 20px;
+        margin-bottom:  50px;
+      }
+
+           
+  h4{
+    
+    font-family: "outfit";
+    font-size: 25px;
+    
+  }
+  
+  h5{
+    
+    font-family: "outfit";
+    font-size: 50px;
+    margin-left: 140px;
+    margin-top: -40px;
+    margin-bottom:  20px;
+  }
+
+
+      .button {
+
+        position: absolute;
+        right: 140px;
+        font-family: "Outfit";
+        right: 140px;
+        padding: 10px 20px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #2F0147;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #9583B1;
+      }
+      
+      .button:hover {background-color: #2F0147}
+      
+      .button:active {
+        background-color: #2F0147;
+        box-shadow: 0 5px #9583B1;
+        transform: translateY(4px);
+      }
+
+}

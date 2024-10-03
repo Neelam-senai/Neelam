@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "Outfit";
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+}
+
+@font-face {
+    font-family: "Melodrama";
+    src: url(../font/Melodrama-Variable.ttf);
+}
+
+
+h1 {
+
+    font-weight: 100;
+    color: #2F0147;
+    text-align: center;
+    font-family: "Outfit";
+    font-size: 38px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+h2 {
+
+    color: #2F0147;
+    text-align: center;
+    font-family: "Outfit";
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+
+}
+
+section#cadastro{
+position: relative;
+
+}
+
+img{
+    position: absolute;
+    left: -350px;
+}
+
+form {
+
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+     height: 20%;
+
+
+}
+
+form input {
+
+ 
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+    border: none;
+    border-bottom: solid 2px #2F0147;
+    outline: none;
+
+}
+
+.label-float {
+
+    color: #2F0147;
+    font-family: "Outfit";
+    position: relative;
+    padding-top: 13px;
+}
+
+.label-float input {
+    border: 0;
+    border-bottom: 2px solid #2F0147;
+    outline: none;
+    min-width: 400px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid #2F0147;
+}
+
+.label-float input::placeholder {
+    color: transparent;
+}
+
+.label-float label {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+}
+
+.label-float input:required:invalid+label {
+    color: red;
+}
+
+.label-float input:focus:required:invalid {
+    border-bottom: 2px solid red;
+}
+
+.label-float input:required:invalid+label:before {
+    content: '*';
+}
+
+.label-float input:focus+label,
+.label-float input:not(:placeholder-shown)+label {
+    font-size: 13px;
+    margin-top: 0;
+    color: #2F0147;
+}
+
+form button {
+
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-right: 130px ;
+    height: 32px;
+    width: 140px;
+
+    background-color: #2F0147;
+    color: white;
+
+    border: none;
+    border-radius: 55px;
+
+    font-family: "Outfit";
+    font-size: 12px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: background-color 500ms;
+
+}
+
