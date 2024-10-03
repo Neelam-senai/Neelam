@@ -53,7 +53,8 @@ form {
 
 form input {
 
- 
+    width: 100%;
+    max-width: 500px;
     align-items: center;
     justify-content: center;
     height: 45px;
@@ -140,6 +141,7 @@ form button {
     margin-right: 130px ;
     height: 32px;
     width: 140px;
+    z-index: 1;
 
     background-color: #2F0147;
     color: white;

@@ -54,7 +54,8 @@ form {
 
 form input {
 
- 
+    width: 100%;
+    max-width: 500px;
     align-items: center;
     justify-content: center;
     height: 45px;
@@ -135,6 +136,7 @@ form button {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    z-index: 1;
 
     margin-top: 20px;
     margin-left: 130px;

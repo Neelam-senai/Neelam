@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrar</title>
     <link rel="stylesheet" href="cadastro.css">
+    <script src="../script.js" defer></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <h1>Cadastre-se</h1>
         <h2>Se tiver conta, <a href="../login/login.html">faça login!</a></h2>
 
-        <form action="">
+        <form action="" onsubmit="cadastrarNovoUsuario(event)">
             <div class="campo-email label-float">
                 <input id="campo-email" type="email" placeholder="email">
                 <label for="campo-email">E-mail</label>
