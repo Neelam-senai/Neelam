@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -16,26 +16,58 @@
         <h1>Login</h1>
         <h2>Se não tiver login, <a href="../cadastro/cadastro.html">cadastre-se!</a></h2>
 
-        <form action="">
+        <form action="" onsubmit="fazerLogin(event)">
             <div class="campo-email label-float">
                 <input id="campo-email" type="email" placeholder="email">
                 <label for="campo-email">Insira seu e-mail</label>
             </div>
 
             <div class="campo-senha label-float">
-                <input id="campo-senha" type="senha" placeholder="senha">
+                <input id="campo-senha" type="password" placeholder="senha">
                 <label for="campo-senha">Insira sua senha</label>
             </div>
 
-            <button>Entrar</button>
+            <button type="submit">Entrar</button>
         </form>
-
 
     </section>
         
 
+</body> -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="../script.js" defer></script>
+</head>
+
+<body>
+    <section id="Login">
+        <img src="../img/flor de lotus-neelam.png" alt="">
+
+        <h1>Login</h1>
+        <h2>Se não tiver login, <a href="../cadastro/cadastro.html">cadastre-se!</a></h2>
+
+        <form action="" onsubmit="fazerLogin(event)">
+            <div class="campo-email label-float">
+                <input id="campo-email" type="email" placeholder="email">
+                <label for="campo-email">Insira seu e-mail</label>
+            </div>
+
+            <div class="campo-senha label-float">
+                <input id="campo-senha" type="password" placeholder="senha">
+                <label for="campo-senha">Insira sua senha</label>
+            </div>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </section>
 </body>
- 
+</html>
     
 
         
