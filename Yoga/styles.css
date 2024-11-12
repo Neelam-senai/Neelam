@@ -1,0 +1,1612 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Melodrama";
+    src: url(fonts/Melodrama-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/*MENU*/
+
+nav {
+    background-color: rgba(255, 175, 180, 60%);
+
+    z-index: 10;
+
+    border-radius: 55px;
+
+    position: absolute;
+    top: 5%;
+    left: 115px;
+
+    height: 100px;
+}
+
+nav ul img {
+    /* width: 200px; */
+    height: 130px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    margin-top: -15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    font-family: "Outfit";
+    font-size: 24px;
+}
+
+.botao1 {
+    color: black;
+    text-decoration: none;
+}
+
+.botao2 {
+    color: #9C528B;
+    text-decoration: none;
+}
+
+.botao3 {
+    color: black;
+    text-decoration: none;
+}
+
+.botao4 {
+    color: black;
+    text-decoration: none;
+}
+
+.botao1:hover {
+    color: #9C528B;
+    text-decoration: underline;
+}
+
+.botao2:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.botao3:hover {
+    color: #9C528B;
+    text-decoration: underline;
+}
+
+.botao4:hover {
+    color: #9C528B;
+    text-decoration: underline;
+}
+
+nav ul li {
+    margin: 0 100px;
+    padding-top: 40px;
+}
+
+/*BANNER 1*/
+
+.hero-section {
+    text-align: center;
+    position: relative;
+}
+
+.hero-section img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-section h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: black;
+
+    padding-top: 100px;
+    font-family: "Melodrama";
+}
+
+/*SECAO 1*/
+
+.basico h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgba(255, 182, 193, 0.5);
+    margin-bottom: 30px;
+
+    font-family: "Outfit";
+    font-weight: normal;
+}
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.video-box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.video-box::before {
+    content: "▶";
+    color: white;
+    font-size: 32px;
+}
+
+
+.basico p {
+    display: inline-block;
+
+    font-family: "Outfit";
+    font-size: 15px;
+
+    text-align: center;
+    width: 100%;
+}
+
+/*SECAO 2*/
+
+.avancado h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgba(255, 182, 193, 0.5);
+    margin-bottom: 30px;
+
+    font-family: "Outfit";
+    font-weight: normal;
+}
+
+.avancado p {
+    font-family: "Outfit";
+    font-weight: normal;
+    font-size: 18px;
+
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+}
+
+.video-grid-ava {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.video-box-ava {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.video-box-ava::before {
+    content: "▶";
+    color: white;
+    font-size: 32px;
+}
+
+
+.avancado2 p {
+    font-family: "Outfit";
+    font-weight: normal;
+    font-size: 18px;
+
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+}
+
+.video-grid-ava2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.video-box-ava2 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.video-box-ava2::before {
+    content: "▶";
+    color: white;
+    font-size: 32px;
+}
+
+/*SECAO 3*/
+
+.plus h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgba(255, 182, 193, 0.5);
+    margin-bottom: 30px;
+
+    font-family: "Outfit";
+    font-weight: normal;
+}
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.video-box-cima-1 {
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.video-box-cima-1::before {
+    content: "▶";
+    color: white;
+    font-size: 32px;
+}
+
+/*video do meio*/
+
+.video-box-meio {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.video-box-meio::before {
+    content: "▶";
+    color: white;
+    font-size: 32px;
+}
+
+/*videos direita*/
+
+.video-box-direita-1 {
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.video-box-direita-1::before {
+    content: "▶";
+    color: white;
+    font-size: 32px;
+}
+
+.video-box-direita-2 {
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.video-box-direita-2::before {
+    content: "▶";
+    color: white;
+    font-size: 32px;
+}
+
+/*FOOTER*/
+
+.footer {
+    position: relative;
+    width: 100%;
+}
+
+.texto {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.footer h1 {
+    font-family: "Outfit";
+    text-align: center;
+    margin: 0;
+}
+
+.footer p {
+    font-family: "Outfit";
+    text-align: center;
+    margin: 0;
+}
+
+/*RESPOSIVIDADE*/
+
+/*1024px*/
+
+@media (max-width: 1024px) {
+
+    /*MENU*/
+
+    nav {
+        background-color: rgba(255, 175, 180, 60%);
+
+        z-index: 10;
+
+        border-radius: 55px;
+
+        position: absolute;
+        top: 3%;
+        left: 50px;
+
+        height: 70px;
+    }
+
+    nav ul img {
+        /* width: 200px; */
+        height: 100px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        margin-top: -15px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+
+        font-family: "Outfit";
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin: 0 65px;
+        padding-top: 25px;
+    }
+
+    /*SECAO 1*/
+
+    .video-box {
+        width: 170px;
+        height: 170px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .basico p {
+        display: inline-block;
+
+        font-family: "Outfit";
+        font-size: 12px;
+
+        text-align: center;
+        width: 100%;
+    }
+
+    /*SECAO 2 AVANCADO*/
+
+    .avancado p {
+        font-family: "Outfit";
+        font-weight: normal;
+        font-size: 15px;
+
+        width: 200px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .video-box-ava {
+        width: 180px;
+        height: 180px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .avancado2 p {
+        font-family: "Outfit";
+        font-weight: normal;
+        font-size: 15px;
+
+        width: 200px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .video-box-ava2 {
+        width: 180px;
+        height: 180px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    /*SECAO 3 NEELAM PLUS*/
+
+    .video-box-cima-1 {
+        width: 150px;
+        height: 350px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    /*video do meio*/
+
+    .video-box-meio {
+        width: 350px;
+        height: 350px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    /*videos direita*/
+
+    .video-box-direita-1 {
+        width: 150px;
+        height: 350px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .video-box-direita-2 {
+        width: 150px;
+        height: 350px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+}
+
+/*768px*/
+
+@media (max-width: 768px) {
+
+    /*MENU*/
+
+    nav {
+        background-color: rgba(255, 175, 180, 60%);
+
+        z-index: 10;
+
+        border-radius: 55px;
+
+        position: absolute;
+        top: 3%;
+        left: 35px;
+
+        height: 50px;
+    }
+
+    nav ul img {
+        /* width: 200px; */
+        height: 75px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        margin-top: -11px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+
+        font-family: "Outfit";
+        font-size: 15px;
+    }
+
+    nav ul li {
+        margin: 0 45px;
+        padding-top: 20px;
+    }
+
+    /*BANNER*/
+
+    .hero-section h1 {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 65px;
+        color: black;
+
+        padding-top: 100px;
+        font-family: "Melodrama";
+    }
+
+    /*SECAO 1*/
+
+    .video-box {
+        width: 130px;
+        height: 130px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .basico p {
+        display: inline-block;
+
+        font-family: "Outfit";
+        font-size: 10px;
+
+        text-align: center;
+        width: 100%;
+    }
+
+    .video-box::before {
+        content: "▶";
+        color: white;
+        font-size: 25px;
+    }
+
+    /*SECAO 2 AVANCADO*/
+
+    .avancado p {
+        font-family: "Outfit";
+        font-weight: normal;
+        font-size: 11px;
+
+        width: 150px;
+        height: 150px;
+        overflow: auto;
+    }
+
+    .video-box-ava {
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .avancado2 p {
+        font-family: "Outfit";
+        font-weight: normal;
+        font-size: 15px;
+
+        width: 200px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .video-box-ava2 {
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    /*SECAO 3 NEELAM PLUS*/
+
+    .video-box-cima-1 {
+        width: 130px;
+        height: 250px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    /*video do meio*/
+
+    .video-box-meio {
+        width: 230px;
+        height: 250px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    /*videos direita*/
+
+    .video-box-direita-1 {
+        width: 130px;
+        height: 250px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .video-box-direita-2 {
+        width: 130px;
+        height: 250px;
+        background-color: black;
+        display: 0flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    /*FOOTER*/
+
+    .footer h1 {
+        font-family: "Outfit";
+        text-align: center;
+        margin: 0;
+
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-family: "Outfit";
+        text-align: center;
+        margin: 0;
+
+        font-size: 12px;
+    }
+}
+
+/*425PX*/
+
+@media (max-width: 425px) {
+    /*MENU*/
+
+    nav {
+        background-color: rgba(255, 175, 180, 60%);
+
+        z-index: 10;
+
+        border-radius: 55px;
+
+        position: absolute;
+        top: 2%;
+        left: 25px;
+
+        height: 30px;
+    }
+
+    nav ul img {
+        /* width: 200px; */
+        height: 55px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        margin-top: -11px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+
+        font-family: "Outfit";
+        font-size: 12px;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+        padding-top: 10px;
+    }
+
+    /*BANNER*/
+
+    .hero-section h1 {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        color: black;
+
+        padding-top: 100px;
+        font-family: "Melodrama";
+    }
+
+    /*SECAO 1*/
+
+    .basico h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgba(255, 182, 193, 0.5);
+        margin-bottom: 30px;
+
+        font-family: "Outfit";
+        font-weight: normal;
+    }
+
+    .video-grid {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box {
+        width: 70px;
+        height: 70px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .video-box::before {
+        content: "▶";
+        color: white;
+        font-size: 12px;
+    }
+
+
+    .basico p {
+        display: inline-block;
+
+        font-family: "Outfit";
+        font-size: 9px;
+
+        text-align: center;
+        width: 100%;
+    }
+
+    /*SECAO 2*/
+
+    .avancado h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgba(255, 182, 193, 0.5);
+        margin-bottom: 30px;
+
+        font-family: "Outfit";
+        font-weight: normal;
+    }
+
+    .avancado p {
+        font-family: "Outfit";
+        font-weight: normal;
+        font-size: 7px;
+
+        width: 100px;
+        height: 100px;
+        overflow: auto;
+    }
+
+    .video-grid-ava {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box-ava {
+        width: 70px;
+        height: 70px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .video-box-ava::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+
+    .avancado2 p {
+        font-family: "Outfit";
+        font-weight: normal;
+        font-size: 7px;
+
+        width: 100px;
+        height: 100px;
+        overflow: auto;
+    }
+
+    .video-grid-ava2 {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box-ava2 {
+        width: 70px;
+        height: 70px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .video-box-ava2::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*SECAO 3*/
+
+    .plus h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgba(255, 182, 193, 0.5);
+        margin-bottom: 30px;
+
+        font-family: "Outfit";
+        font-weight: normal;
+    }
+
+    .video-grid {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box-cima-1 {
+        width: 80px;
+        height: 150px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .video-box-cima-1::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*video do meio*/
+
+    .video-box-meio {
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .video-box-meio::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*videos direita*/
+
+    .video-box-direita-1 {
+        width: 80px;
+        height: 150px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .video-box-direita-1::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    .video-box-direita-2 {
+        width: 80px;
+        height: 150px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .video-box-direita-2::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*FOOTER*/
+
+    .footer h1 {
+        font-family: "Outfit";
+        text-align: center;
+        margin: 0;
+
+        font-size: 10px;
+    }
+
+    .footer p {
+        font-family: "Outfit";
+        text-align: center;
+        margin: 0;
+
+        font-size: 7px;
+    }
+}
+
+/*375PX*/
+
+@media (max-width: 375px) {
+
+    /*MENU*/
+
+    nav {
+        background-color: rgba(255, 175, 180, 60%);
+
+        z-index: 10;
+
+        border-radius: 55px;
+
+        position: absolute;
+        top: 1%;
+        left: 40px;
+
+        height: 30px;
+    }
+
+    nav ul img {
+        /* width: 200px; */
+        height: 40px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        margin-top: -5px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+
+        font-family: "Outfit";
+        font-size: 10px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+        padding-top: 10px;
+    }
+
+    /*BANNER*/
+
+    .hero-section h1 {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 35px;
+        color: black;
+
+        padding-top: 70px;
+        font-family: "Melodrama";
+    }
+
+    /*SECAO 1*/
+
+    .basico h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgba(255, 182, 193, 0.5);
+        margin-bottom: 30px;
+
+        font-family: "Outfit";
+        font-weight: normal;
+    }
+
+    .video-grid {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box::before {
+        content: "▶";
+        color: white;
+        font-size: 12px;
+    }
+
+
+    .basico p {
+        display: inline-block;
+
+        font-family: "Outfit";
+        font-size: 7px;
+
+        text-align: center;
+        width: 80%;
+    }
+
+    /*SECAO 2*/
+
+    .avancado h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgba(255, 182, 193, 0.5);
+        margin-bottom: 30px;
+
+        font-family: "Outfit";
+        font-weight: normal;
+    }
+
+    .avancado p {
+        font-family: "Outfit";
+        font-weight: normal;
+        font-size: 7px;
+
+        width: 100px;
+        height: 100px;
+        overflow: auto;
+    }
+
+    .video-grid-ava {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box-ava {
+        width: 70px;
+        height: 70px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-ava::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+
+    .avancado2 p {
+        font-family: "Outfit";
+        font-weight: normal;
+        font-size: 7px;
+
+        width: 100px;
+        height: 100px;
+        overflow: auto;
+    }
+
+    .video-grid-ava2 {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box-ava2 {
+        width: 70px;
+        height: 70px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-ava2::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*SECAO 3*/
+
+    .plus h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgba(255, 182, 193, 0.5);
+        margin-bottom: 30px;
+
+        font-family: "Outfit";
+        font-weight: normal;
+    }
+
+    .video-grid {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box-cima-1 {
+        width: 70px;
+        height: 140px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-cima-1::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*video do meio*/
+
+    .video-box-meio {
+        width: 140px;
+        height: 140px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-meio::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*videos direita*/
+
+    .video-box-direita-1 {
+        width: 70px;
+        height: 140px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-direita-1::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    .video-box-direita-2 {
+        width: 70px;
+        height: 140px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-direita-2::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*FOOTER*/
+
+    .footer h1 {
+        font-family: "Outfit";
+        text-align: center;
+        margin: 0;
+
+        font-size: 10px;
+    }
+
+    .footer p {
+        font-family: "Outfit";
+        text-align: center;
+        margin: 0;
+
+        font-size: 7px;
+    }
+}
+
+/*320PX*/
+
+@media (max-width: 320px) {
+
+    /*MENU*/
+
+    nav {
+        background-color: rgba(255, 175, 180, 60%);
+
+        z-index: 10;
+
+        border-radius: 55px;
+
+        position: absolute;
+        top: 1%;
+        left: 40px;
+
+        height: 20px;
+    }
+
+    nav ul img {
+        height: 30px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        margin-top: -5px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+
+        font-family: "Outfit";
+        font-size: 8px;
+    }
+
+    nav ul li {
+        margin: 0 8px;
+        padding-top: 6px;
+    }
+
+    /*BANNER*/
+
+    .hero-section h1 {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 35px;
+        color: black;
+
+        padding-top: 70px;
+        font-family: "Melodrama";
+    }
+
+    /*SECAO 1*/
+
+    .basico h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgba(255, 182, 193, 0.5);
+        margin-bottom: 30px;
+
+        font-family: "Outfit";
+        font-weight: normal;
+    }
+
+    .video-grid {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box::before {
+        content: "▶";
+        color: white;
+        font-size: 12px;
+    }
+
+
+    .basico p {
+        display: inline-block;
+
+        font-family: "Outfit";
+        font-size: 7px;
+
+        text-align: center;
+        width: 80%;
+    }
+
+    /*SECAO 2*/
+
+    .avancado h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgba(255, 182, 193, 0.5);
+        margin-bottom: 30px;
+
+        font-family: "Outfit";
+        font-weight: normal;
+    }
+
+    .avancado p {
+        font-family: "Outfit";
+        font-weight: normal;
+        font-size: 6px;
+
+        width: 80px;
+        height: 100px;
+        overflow: auto;
+    }
+
+    .video-grid-ava {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box-ava {
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-ava::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+
+    .avancado2 p {
+        font-family: "Outfit";
+        font-weight: normal;
+        font-size: 6px;
+
+        width: 80px;
+        height: 100px;
+        overflow: auto;
+    }
+
+    .video-grid-ava2 {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box-ava2 {
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-ava2::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*SECAO 3*/
+
+    .plus h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgba(255, 182, 193, 0.5);
+        margin-bottom: 30px;
+
+        font-family: "Outfit";
+        font-weight: normal;
+    }
+
+    .video-grid {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .video-box-cima-1 {
+        width: 70px;
+        height: 140px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-cima-1::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*video do meio*/
+
+    .video-box-meio {
+        width: 140px;
+        height: 140px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-meio::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*videos direita*/
+
+    .video-box-direita-1 {
+        width: 70px;
+        height: 140px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-direita-1::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    .video-box-direita-2 {
+        width: 70px;
+        height: 140px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .video-box-direita-2::before {
+        content: "▶";
+        color: white;
+        font-size: 20px;
+    }
+
+    /*FOOTER*/
+
+    .footer h1 {
+        font-family: "Outfit";
+        text-align: center;
+        margin: 0;
+
+        font-size: 8px;
+    }
+
+    .footer p {
+        font-family: "Outfit";
+        text-align: center;
+        margin: 0;
+
+        font-size: 5px;
+    }
+}
