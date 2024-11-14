@@ -80,17 +80,33 @@ header {
         align-items: center;
         display: flex;
         justify-content: space-evenly;
+
+        text-decoration: none;
     
         font-family: "Outfit";
         font-size: 24px;
         width: 100%;
         padding-left: 0px;
     }
-  
-    .menu a {
-        color: rgb(255, 255, 255);
+
+    .sobretexto {
+        color:rgb(53, 32, 90);
         text-decoration: none;
-        /* Remove o sublinhado */
+    }
+    
+    .sobretexto2 {
+        color: white;
+       
+    }
+
+    .sobretexto3 {
+        color:rgb(255, 255, 255);
+        
+    }
+
+    .sobretexto4 {
+        color:rgb(255, 255, 255);
+        
     }
     
     
@@ -101,6 +117,10 @@ header {
         /* Sublinhado ao passar o mouse */
     }
     
+    a.sobretexto:hover{
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+    }
 
 .conteudo-banner {
     height: calc(85vh - 280px);
